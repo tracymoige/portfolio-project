@@ -3,9 +3,18 @@ font-family: 'Roboto Mono', monospace; */
 
 h1 {
   font-family: "Playfair Display", serif;
+  font-size: 96px;
 }
 
-h2 {
+.hero {
+  background-color: #f9f7fe;
+  padding: 230px 20px;
+  text-align: left;
+}
+
+.hero h2 {
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
+  font-size: 24px;
+  margin: 0;
 }
