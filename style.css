@@ -12,6 +12,17 @@ h3 {
   font-size: 40px;
 }
 
+h4 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+img {
+  width: 300px;
+  text-align: center;
+}
+
 .hero {
   background-color: #f9f7fe;
   padding: 230px 20px;
@@ -37,4 +48,22 @@ h3 {
 .skill {
   text-align: center;
   font-family: "Roboto Mono", monospace;
+}
+
+.projects {
+  text-align: center;
+}
+
+.description {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+}
+
+.btn-branding-outline {
+  color: #6c63ff;
+  border: 1px solid #6c63ff;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 27px;
+  padding: 10px 25px;
 }
