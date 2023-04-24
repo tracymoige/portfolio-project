@@ -67,3 +67,45 @@ img {
   line-height: 27px;
   padding: 10px 25px;
 }
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 200px 20px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .icons {
+    font-size: 30px;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+  }
+
+  .skill {
+    font-size: 12px;
+  }
+
+  .btn-branding-outline {
+    padding: 5px 20px;
+  }
+}
