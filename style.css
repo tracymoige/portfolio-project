@@ -6,6 +6,12 @@ h1 {
   font-size: 96px;
 }
 
+h3 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 40px;
+}
+
 .hero {
   background-color: #f9f7fe;
   padding: 230px 20px;
@@ -17,4 +23,18 @@ h1 {
   font-weight: 400;
   font-size: 24px;
   margin: 0;
+}
+
+.icons {
+  font-size: 50px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  opacity: 0.9;
+}
+
+.skill {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
 }
