@@ -146,4 +146,8 @@ a {
   .about-page h1 {
     font-size: 50px;
   }
+
+  .navbar-brand {
+    margin-left: 30px;
+  }
 }
