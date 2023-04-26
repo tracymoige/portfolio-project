@@ -23,8 +23,16 @@ img {
   text-align: center;
 }
 
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  color: black;
+}
+
 .hero {
-  background-color: #f9f7fe;
+  background-color: #f3e9e3;
   padding: 230px 20px;
   text-align: left;
 }
@@ -68,9 +76,20 @@ img {
   padding: 10px 25px;
 }
 
+.about-page {
+  background-color: #f3e9e3;
+  padding: 230px 20px;
+  text-align: center;
+}
+
+.about-page h1 {
+  font-size: 60px;
+}
+
 @media (max-width: 900px) {
   .hero {
-    padding: 200px 20px;
+    padding: 150px 20px;
+    text-align: center;
   }
 
   h1 {
@@ -83,6 +102,10 @@ img {
 
   h4 {
     font-size: 25px;
+  }
+
+  p {
+    font-size: 15px;
   }
 
   .description {
@@ -107,5 +130,15 @@ img {
 
   .btn-branding-outline {
     padding: 5px 20px;
+  }
+
+  .about-page {
+    background-color: #f3e9e3;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-page h1 {
+    font-size: 50px;
   }
 }
