@@ -178,4 +178,8 @@ a {
   .navbar-brand {
     margin-left: 30px;
   }
+
+  .work h1 {
+    font-size: 40px;
+  }
 }
