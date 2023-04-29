@@ -76,8 +76,15 @@ a {
   padding: 10px 25px;
 }
 
-.about-page {
+.btn:hover {
+  background-color: #6c63ff;
+}
+
+.me {
   background-color: #f3e9e3;
+}
+
+.about-page {
   padding: 230px 20px;
   text-align: center;
 }
@@ -89,6 +96,27 @@ a {
 .navbar-brand {
   margin-left: 50px;
   font-family: "Playfair Display", serif;
+}
+
+.my-work {
+  background-color: #f3e9e3;
+}
+
+.work {
+  padding: 150px 20px;
+}
+
+.work h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.venus {
+  width: 600px;
+}
+
+.weather {
+  width: 1900px;
 }
 
 @media (max-width: 900px) {
