@@ -60,6 +60,7 @@ a {
 
 .projects {
   text-align: center;
+  padding-bottom: 200px;
 }
 
 .description {
@@ -87,6 +88,7 @@ a {
 .about-page {
   padding-top: 150px;
   text-align: center;
+  padding-bottom: 160px;
 }
 
 .about-page h1 {
@@ -116,7 +118,8 @@ a {
 }
 
 .contact {
-  padding: 150px 20px;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 .contact h1 {
@@ -131,6 +134,23 @@ a {
   padding-right: 20px;
   padding-bottom: 10px;
   opacity: 0.9;
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 20px;
+}
+
+.social-links {
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.hover:hover {
+  font-weight: bold;
+  color: black;
 }
 
 @media (max-width: 900px) {
