@@ -85,7 +85,7 @@ a {
 }
 
 .about-page {
-  padding: 230px 20px;
+  padding-top: 150px;
   text-align: center;
 }
 
@@ -94,12 +94,12 @@ a {
 }
 
 .navbar-brand {
-  margin-left: 50px;
+  margin-left: 20px;
   font-family: "Playfair Display", serif;
 }
 
 .work {
-  padding: 150px 20px;
+  padding-top: 100px;
 }
 
 .work h1 {
@@ -179,22 +179,28 @@ a {
     padding: 5px 20px;
   }
 
-  .about-page {
-    background-color: #f3e9e3;
-    margin: 0 auto;
-    text-align: center;
-  }
-
   .about-page h1 {
     font-size: 50px;
   }
 
   .navbar-brand {
-    margin-left: 30px;
+    margin-left: 20px;
+  }
+
+  .nav-link {
+    text-align: right;
+  }
+
+  .work {
+    padding-top: 60px;
   }
 
   .work h1 {
-    font-size: 40px;
+    font-size: 30px;
+  }
+
+  .contact {
+    padding-top: 60px;
   }
 
   .contact h1 {
